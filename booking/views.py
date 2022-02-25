@@ -4,4 +4,4 @@ from .models import Post
 
 
 def get_booking(request):
-    return render(request, 'restaurant_booking/base.html')
+    return render(request, 'booking/base.html')
