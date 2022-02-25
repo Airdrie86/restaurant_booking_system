@@ -1,7 +1,7 @@
 from django.shortcuts import render
-
-# Create your views here.
+from django.views import generic
+from .models import Post
 
 
 def get_booking(request):
-    return render(request, 'booking/base.html')
+    return render(request, 'restaurant_booking/base.html')
